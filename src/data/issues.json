@@ -5,6 +5,7 @@
     "status": "Backlog",
     "priority": "high",
     "severity": 3,
+    "userDefinedRank": 4,
     "createdAt": "2025-07-09T10:00:00Z",
     "assignee": "alice",
     "tags": ["auth", "bug"]
@@ -15,6 +16,7 @@
     "status": "In Progress",
     "priority": "medium",
     "severity": 2,
+    "userDefinedRank": 2,
     "createdAt": "2025-07-08T12:00:00Z",
     "assignee": "bob",
     "tags": ["performance"]
@@ -25,8 +27,196 @@
     "status": "Done",
     "priority": "low",
     "severity": 1,
+    "userDefinedRank": 1,
     "createdAt": "2025-07-07T09:30:00Z",
     "assignee": "carol",
     "tags": ["ui"]
+  },
+  {
+    "id": "4",
+    "title": "Refactor user profile page",
+    "status": "Backlog",
+    "priority": "medium",
+    "severity": 2,
+    "userDefinedRank": 0,
+    "createdAt": "2025-07-06T14:20:00Z",
+    "assignee": "carol",
+    "tags": ["refactor", "ui"]
+  },
+  {
+    "id": "5",
+    "title": "Fix password reset flow",
+    "status": "In Progress",
+    "priority": "high",
+    "severity": 3,
+    "userDefinedRank": 3,
+    "createdAt": "2025-07-05T08:15:00Z",
+    "assignee": "carol",
+    "tags": ["auth", "bug"]
+  },
+  {
+    "id": "6",
+    "title": "Add multi-language support",
+    "status": "Backlog",
+    "priority": "low",
+    "severity": 1,
+    "userDefinedRank": 2,
+    "createdAt": "2025-07-04T10:45:00Z",
+    "assignee": "alice",
+    "tags": ["feature", "i18n"]
+  },
+  {
+    "id": "7",
+    "title": "Upgrade dependencies",
+    "status": "Done",
+    "priority": "medium",
+    "severity": 2,
+    "userDefinedRank": 1,
+    "createdAt": "2025-07-03T11:00:00Z",
+    "assignee": "bob",
+    "tags": ["maintenance"]
+  },
+  {
+    "id": "8",
+    "title": "Improve search functionality",
+    "status": "In Progress",
+    "priority": "high",
+    "severity": 3,
+    "userDefinedRank": 0,
+    "createdAt": "2025-07-02T09:50:00Z",
+    "assignee": "carol",
+    "tags": ["feature", "search"]
+  },
+  {
+    "id": "9",
+    "title": "Fix CSS bugs on mobile",
+    "status": "Backlog",
+    "priority": "medium",
+    "severity": 2,
+    "userDefinedRank": 1,
+    "createdAt": "2025-07-01T15:30:00Z",
+    "assignee": "carol",
+    "tags": ["bug", "ui", "mobile"]
+  },
+  {
+    "id": "10",
+    "title": "Optimize database queries",
+    "status": "Done",
+    "priority": "high",
+    "severity": 3,
+    "userDefinedRank": 4,
+    "createdAt": "2025-06-30T13:10:00Z",
+    "assignee": "alice",
+    "tags": ["performance", "database"]
+  },
+  {
+    "id": "11",
+    "title": "Improve error messages",
+    "status": "Backlog",
+    "priority": "low",
+    "severity": 1,
+    "userDefinedRank": 5,
+    "createdAt": "2025-06-29T16:00:00Z",
+    "assignee": "bob",
+    "tags": ["ux", "error"]
+  },
+  {
+    "id": "12",
+    "title": "Add user activity log",
+    "status": "In Progress",
+    "priority": "medium",
+    "severity": 2,
+    "userDefinedRank": 5,
+    "createdAt": "2025-06-28T09:25:00Z",
+    "assignee": "alice",
+    "tags": ["feature", "logging"]
+  },
+  {
+    "id": "13",
+    "title": "Fix broken links",
+    "status": "Backlog",
+    "priority": "high",
+    "severity": 3,
+    "userDefinedRank": 3,
+    "createdAt": "2025-06-27T12:35:00Z",
+    "assignee": "alice",
+    "tags": ["bug", "seo"]
+  },
+  {
+    "id": "14",
+    "title": "Redesign landing page",
+    "status": "Done",
+    "priority": "medium",
+    "severity": 2,
+    "userDefinedRank": 0,
+    "createdAt": "2025-06-26T14:45:00Z",
+    "assignee": "alice",
+    "tags": ["design", "ui"]
+  },
+  {
+    "id": "15",
+    "title": "Implement CI/CD pipeline",
+    "status": "In Progress",
+    "priority": "high",
+    "severity": 3,
+    "userDefinedRank": 1,
+    "createdAt": "2025-06-25T10:05:00Z",
+    "assignee": "bob",
+    "tags": ["devops", "automation"]
+  },
+  {
+    "id": "16",
+    "title": "Add unit tests for auth module",
+    "status": "Backlog",
+    "priority": "medium",
+    "severity": 2,
+    "userDefinedRank": 0,
+    "createdAt": "2025-06-24T08:50:00Z",
+    "assignee": "bob",
+    "tags": ["testing", "auth"]
+  },
+  {
+    "id": "17",
+    "title": "Fix notification bugs",
+    "status": "In Progress",
+    "priority": "high",
+    "severity": 3,
+    "userDefinedRank": 2,
+    "createdAt": "2025-06-23T09:40:00Z",
+    "assignee": "carol",
+    "tags": ["bug", "notifications"]
+  },
+  {
+    "id": "18",
+    "title": "Update documentation",
+    "status": "Done",
+    "priority": "low",
+    "severity": 1,
+    "userDefinedRank": 3,
+    "createdAt": "2025-06-22T11:15:00Z",
+    "assignee": "alice",
+    "tags": ["docs"]
+  },
+  {
+    "id": "19",
+    "title": "Implement dark mode toggle",
+    "status": "Backlog",
+    "priority": "medium",
+    "severity": 2,
+    "userDefinedRank": 1,
+    "createdAt": "2025-06-21T14:00:00Z",
+    "assignee": "carol",
+    "tags": ["feature", "ui"]
+  },
+  {
+    "id": "20",
+    "title": "Fix spinner loading issue",
+    "status": "In Progress",
+    "priority": "high",
+    "severity": 3,
+    "userDefinedRank": 4,
+    "createdAt": "2025-06-20T13:50:00Z",
+    "assignee": "bob",
+    "tags": ["bug", "ux"]
   }
 ]

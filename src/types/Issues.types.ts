@@ -2,7 +2,9 @@ export type IssueStatus = 'Backlog' | 'In Progress' | 'Done';
 export type IssuePriority = 'low' | 'medium' | 'high';
 
 export interface Issue {
+  popUndo: any;
   id: string;
+  priority: IssuePriority;    
   title: string;
   tags: string[];
   assignee: string;
@@ -10,9 +12,4 @@ export interface Issue {
   userDefinedRank: number;
   createdAt: string; // ISO format
   status: IssueStatus;
-}
-
-export interface User {
-  name: string;
-  role: 'admin' | 'contributor';
 }

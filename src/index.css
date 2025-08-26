@@ -1,0 +1,121 @@
+.issues-title-priority.low::before{
+    background-color: greenyellow;
+}
+
+.issues-title-priority.medium::before{
+    background-color: orange;
+}
+
+.issues-title-priority.high::before{
+    background-color: red;
+}
+
+.issues-title-priority::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+}
+.issues-title{
+    display: flex;
+}
+
+
+.m-0{
+    margin: 0;
+}
+
+.m-l-5{
+    margin-left: 5px;
+}
+
+.issus-tags{
+    display:inline-block;
+    background-color:#eee;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+    margin-right:0.3rem;
+    font-size:0.8rem
+}
+
+.align-center{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 50px auto;
+}
+ 
+
+ .btn{
+    width: 140px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 10px;
+}
+
+.btn-primary{
+    background: steelblue;
+}
+.btn-primary:hover{
+    background: #4682b4;
+    cursor: pointer;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+
+select{
+    background: gray;
+    padding: 05px 10px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    color: white;
+}
+
+
+.success-btn{
+    background: green;
+    padding: 05px 10px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    color: white;
+    border: none;
+}
+
+.success-btn:hover{
+    background: darkgreen;
+    cursor: pointer;
+}
+ 
+body.dark-mode nav ,body.dark-mode .issus-tags,body.dark-mode aside ,body.dark-mode .tags-container ,body.dark-mode p.assignee {
+    color: black;
+} 
+
+a.issues-title {color: black;}
+ 
