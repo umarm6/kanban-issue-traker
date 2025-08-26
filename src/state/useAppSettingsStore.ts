@@ -9,7 +9,7 @@ interface AppSettingsStore {
 export const useAppSettingsStore = create<AppSettingsStore>()(
   persist(
     (set) => ({
-        pollingIntervalMs: 10000, // default 10 seconds
+        pollingIntervalMs: 500, // default 0.5 seconds
         setPollingInterval: (interval) => set({ pollingIntervalMs: interval }),
      }),
     { name: "app-settings", storage:createJSONStorage (() => localStorage)}

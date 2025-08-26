@@ -11,6 +11,8 @@ export function PollingIntervalSelector() {
         value={pollingIntervalMs}
         onChange={(e) => setPollingInterval(Number(e.target.value))}
       >
+        <option value={500}>0.5 seconds</option> 
+        <option value={1000}>1 seconds</option> 
         <option value={5000}>5 seconds</option>
         <option value={10000}>10 seconds</option>
         <option value={30000}>30 seconds</option>

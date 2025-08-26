@@ -13,7 +13,7 @@ type AsyncFunction = () => Promise<void>;
  */
 
 
-export function usePolling(fetchFn: AsyncFunction, intervalMs = 10000) {
+export function usePolling(fetchFn: AsyncFunction, intervalMs = 500) {
   const savedFetchFn = useRef<AsyncFunction>(fetchFn);
   const [countdownSeconds, setCountdownSeconds] = useState(intervalMs / 1000);
   const [lastSync, setLastSync] = useState<Date | null>(null);
